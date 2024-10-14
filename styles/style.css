@@ -1,0 +1,32 @@
+body{
+    background-color: aqua;
+    align-items: center;
+}
+
+main{
+    background-color: white;
+    
+    display: block;
+}
+
+.section-one{
+    background-color: beige;
+    display: flex;
+    padding: 20px;
+}
+
+.div-section-one{
+    padding: 20px;
+}
+
+.section-two{
+    background-color: aquamarine;
+    display: flex;
+    padding: 20px;
+}
+
+.img{
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+}
