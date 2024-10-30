@@ -1,32 +1,47 @@
 body{
-    background-color: aqua;
+    background-color: black;
     align-items: center;
+}
+
+header{
+    display: flex;
+    color: white;
+    background-color: aqua;
+    padding-top: 0 2%;
+    margin-bottom: 2%;
 }
 
 main{
     background-color: white;
-    
     display: block;
+    width: 100%;
+    height: 100%;
 }
 
-.section-one{
+.section-one, .section-two{
     background-color: beige;
     display: flex;
-    padding: 20px;
+    padding: 2%;
 }
 
-.div-section-one{
-    padding: 20px;
+.div-section-one, .div-section-two{
+    padding: 2%;
 }
 
 .section-two{
     background-color: aquamarine;
-    display: flex;
-    padding: 20px;
 }
 
 .img{
-    width: 500px;
-    height: 500px;
-    border-radius: 100%;
+    display: flex;
+    width: 30%;
+    height: 30%;
+    border-radius: 10%;
+}
+
+#image {
+    display: flex;
+    width: 30%;
+    height: 30%;
+    object-fit: cover;
 }
