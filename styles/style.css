@@ -5,30 +5,31 @@ body{
 }
 
 hr{
-    color: #3d7b30;
-    background-color: #b6f7a2;
+    margin: 0;
+    border: 0px;
+    border-top: 2px solid #3d7b30;
 }
 
 /* Header */ 
-header{
+header, footer{
     display: flex;
     background-color:#3d7b30;
     justify-content: space-between;
     padding: 2%; 
 }
-.h1-header{
+.h1-header, .h1-footer{
     color: #E8F1F2;
     padding: 0;
     margin: 0;
     font-size: 32px;
 }
-.images-header{
+.images-header, .images-footer{
     justify-content: space-between;
     width: 10%;
     display: flex;
     padding: 0;
 }
-.img-reader-a{
+.img-header-a, .img-footer-a{
     width: 35px;
     height: 35px;
     cursor: pointer;
@@ -49,6 +50,7 @@ img {
 a{
     width: 100%;
     cursor: pointer;
+    color: #3d7b30;
 }
 
 h1 {
@@ -131,6 +133,6 @@ p{
     height: 80%;
     padding: 2%;
 }
-h2{
+h2, h3{
    color: #3d7b30; 
 }
