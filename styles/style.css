@@ -136,3 +136,74 @@ p{
 h2, h3{
    color: #3d7b30; 
 }
+
+
+/*section form*/
+.form{
+    background-color:#3d7b30;
+    display: flex;
+    padding: 2%;
+}
+.container-form{
+    width: 100%;
+    height: 100%;
+}
+.form-text{
+    color: white;
+    font-size: 32px; 
+}
+
+.div-form{
+    padding: 2%;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.form-complet{
+    width: 100%;
+    height: 100%;
+}
+
+.form-group {
+    padding-top: 2%;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color:#3d7b30;
+}
+
+.form-group input, .form-group textarea {
+    width:98.5%;
+    padding: 10px;
+    border: 1px solid #b6f7a2;
+    border-radius: 5px;
+    background-color: #E8F1F2;
+    color: #3d7b30;
+    font-size: 16px;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #b6f7a2;
+    color: #3d7b30;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+
+    &:hover{
+        background-color: #a2e87f;
+    }
+}
