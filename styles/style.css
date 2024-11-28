@@ -176,9 +176,12 @@ h2, h3{
 }
 
 .form-group {
+    position: relative;
     padding-top: 2%;
     width: 100%;
     margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
 }
 
 .form-group label {
@@ -189,7 +192,6 @@ h2, h3{
 }
 
 .form-group input, .form-group textarea {
-    width: 98.5%;
     padding: 10px;
     border: 1px solid #cccccc;
     border-radius: 5px;
